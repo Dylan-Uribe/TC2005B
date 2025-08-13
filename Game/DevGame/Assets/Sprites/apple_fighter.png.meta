@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: d3c896aea1a71bd448d6a99aab3d2cbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8045372071110454652
+    second: apple_fighter_0
+  - first:
+      213: -1821970186741543594
+    second: apple_fighter_1
+  - first:
+      213: 4983757996679826510
+    second: apple_fighter_2
+  - first:
+      213: 4339236028189031589
+    second: apple_fighter_3
+  - first:
+      213: -1312125462241560965
+    second: apple_fighter_4
+  - first:
+      213: -6342368345590732105
+    second: apple_fighter_5
+  - first:
+      213: -6654459859630961831
+    second: apple_fighter_6
+  - first:
+      213: 1567084872425377101
+    second: apple_fighter_7
+  - first:
+      213: 5350328886823761400
+    second: apple_fighter_8
+  - first:
+      213: 4187453532704252408
+    second: apple_fighter_9
+  - first:
+      213: 8430864476705717470
+    second: apple_fighter_10
+  - first:
+      213: 7414144995208966533
+    second: apple_fighter_11
+  - first:
+      213: -2685765726912218748
+    second: apple_fighter_12
+  - first:
+      213: 5961716935080428590
+    second: apple_fighter_13
+  - first:
+      213: 4576214060399806946
+    second: apple_fighter_14
+  - first:
+      213: 7791980623887453618
+    second: apple_fighter_15
+  - first:
+      213: 3766219032647112672
+    second: apple_fighter_0
+  - first:
+      213: 8343192158208719623
+    second: apple_fighter_1
+  - first:
+      213: 7706888803229946116
+    second: apple_fighter_18
+  - first:
+      213: 7170847369530745602
+    second: apple_fighter_19
+  - first:
+      213: -8450456957144433042
+    second: apple_fighter_20
+  - first:
+      213: -8546806080401911302
+    second: apple_fighter_21
+  - first:
+      213: 2472050991723831083
+    second: apple_fighter_22
+  - first:
+      213: -8668351357624440179
+    second: apple_fighter_23
+  - first:
+      213: -3485578769607690268
+    second: apple_fighter_24
+  - first:
+      213: -2392633682756823553
+    second: apple_fighter_25
+  - first:
+      213: 9204224952338091945
+    second: apple_fighter_26
+  - first:
+      213: -3673149700568372837
+    second: apple_fighter_27
+  - first:
+      213: -3046500600094803880
+    second: apple_fighter_28
+  - first:
+      213: 725118554301895325
+    second: apple_fighter_29
+  - first:
+      213: 2563410703385880592
+    second: apple_fighter_30
+  - first:
+      213: -3505924607460389915
+    second: apple_fighter_31
+  - first:
+      213: 6667799691097906866
+    second: apple_fighter_32
+  - first:
+      213: -1157665620012950612
+    second: apple_fighter_33
+  - first:
+      213: -4726144156209892679
+    second: apple_fighter_34
+  - first:
+      213: -8829556527607750937
+    second: apple_fighter_35
+  - first:
+      213: -4421422844650154438
+    second: apple_fighter_36
+  - first:
+      213: 3031188931506678367
+    second: apple_fighter_37
+  - first:
+      213: 8144261554454900539
+    second: apple_fighter_38
+  - first:
+      213: -2214265251417579976
+    second: apple_fighter_39
+  - first:
+      213: 312912368926800600
+    second: apple_fighter_40
+  - first:
+      213: 4690958928152906269
+    second: apple_fighter_41
+  - first:
+      213: -3808891395492767458
+    second: apple_fighter_42
+  - first:
+      213: -5679139710936245287
+    second: apple_fighter_43
+  - first:
+      213: -6316449636127858246
+    second: apple_fighter_44
+  - first:
+      213: 549465216258354535
+    second: apple_fighter_45
+  - first:
+      213: -1111974976664507375
+    second: apple_fighter_46
+  - first:
+      213: -5263408227929847024
+    second: apple_fighter_47
+  - first:
+      213: 4264715980717796049
+    second: apple_fighter_48
+  - first:
+      213: -5694378082643756199
+    second: apple_fighter_49
+  - first:
+      213: 5527344986903407045
+    second: apple_fighter_50
+  - first:
+      213: 5452170871222480313
+    second: apple_fighter_51
+  - first:
+      213: 5916105431587141855
+    second: apple_fighter_52
+  - first:
+      213: -1035821512300866480
+    second: apple_fighter_53
+  - first:
+      213: -2341476080349364605
+    second: apple_fighter_54
+  - first:
+      213: -7641809507307207797
+    second: apple_fighter_55
+  - first:
+      213: 3238365865678289684
+    second: apple_fighter_56
+  - first:
+      213: -5868424814309203084
+    second: apple_fighter_57
+  - first:
+      213: 1315284731009556352
+    second: apple_fighter_58
+  - first:
+      213: 2277110121193026176
+    second: apple_fighter_59
+  - first:
+      213: 1124755417318308003
+    second: apple_fighter_60
+  - first:
+      213: -6718646269091628643
+    second: apple_fighter_61
+  - first:
+      213: -4009933076137336528
+    second: apple_fighter_62
+  - first:
+      213: -235378100181880815
+    second: apple_fighter_63
+  - first:
+      213: 8860772893883985232
+    second: apple_fighter_64
+  - first:
+      213: 5896127290351359818
+    second: apple_fighter_65
+  - first:
+      213: 6093438587693919033
+    second: apple_fighter_66
+  - first:
+      213: 8887902242525061180
+    second: apple_fighter_67
+  - first:
+      213: -1427337460776643307
+    second: apple_fighter_68
+  - first:
+      213: -4514138601473161574
+    second: apple_fighter_69
+  - first:
+      213: -5342245945849013420
+    second: apple_fighter_70
+  - first:
+      213: 5995561333884875202
+    second: apple_fighter_71
+  - first:
+      213: -6043521215376205047
+    second: apple_fighter_72
+  - first:
+      213: 5412473140861473368
+    second: apple_fighter_73
+  - first:
+      213: 7426883560228661469
+    second: apple_fighter_74
+  - first:
+      213: -2168409561189098007
+    second: apple_fighter_75
+  - first:
+      213: 4854675289050851427
+    second: apple_fighter_76
+  - first:
+      213: -6316031077507341637
+    second: apple_fighter_77
+  - first:
+      213: -1471080394726806904
+    second: apple_fighter_78
+  - first:
+      213: -1595947156514670281
+    second: apple_fighter_70
+  - first:
+      213: 2854330677600086154
+    second: apple_fighter_80
+  - first:
+      213: 4910754066036988331
+    second: apple_fighter_81
+  - first:
+      213: 7273104577316348296
+    second: apple_fighter_82
+  - first:
+      213: 1560837729795652161
+    second: apple_fighter_83
+  - first:
+      213: -5028833219702129996
+    second: apple_fighter_84
+  - first:
+      213: 3122518690566007613
+    second: apple_fighter_85
+  - first:
+      213: -6062983552208758034
+    second: apple_fighter_86
+  - first:
+      213: -1205719296638891757
+    second: apple_fighter_87
+  - first:
+      213: 626064710166447823
+    second: apple_fighter_88
+  - first:
+      213: 8378144478468224111
+    second: apple_fighter_89
+  - first:
+      213: -2887138277917717478
+    second: apple_fighter_90
+  - first:
+      213: 8525951299367882043
+    second: apple_fighter_91
+  - first:
+      213: 4884990266479027536
+    second: apple_fighter_92
+  - first:
+      213: 2256846181463047089
+    second: apple_fighter_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: apple_fighter_2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1769
+        width: 136
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c0d9e2e7dd92540800000000000000
+      internalID: 4983757996679826510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1769
+        width: 136
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76b85218d46acde0800000000000000
+      internalID: -1312125462241560965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_6
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1768
+        width: 136
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bc996b30c96a3a0800000000000000
+      internalID: -6654459859630961831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_8
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1767
+        width: 136
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f534aa76cf204a40800000000000000
+      internalID: 5350328886823761400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1760
+        width: 134
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e71f33814c444430800000000000000
+      internalID: 8045372071110454652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1760
+        width: 134
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bfad25019f8c370800000000000000
+      internalID: -1821970186741543594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_18
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1761
+        width: 148
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d4ff988e54fa60800000000000000
+      internalID: 7706888803229946116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_19
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1761
+        width: 148
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ac6790b7f38360800000000000000
+      internalID: 7170847369530745602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_20
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1766
+        width: 137
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7daf7b22f9ba80800000000000000
+      internalID: -8450456957144433042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_21
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1766
+        width: 137
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1de7d1725a36980800000000000000
+      internalID: -8546806080401911302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_22
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1759
+        width: 134
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd95c874d7e4220800000000000000
+      internalID: 2472050991723831083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_23
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1759
+        width: 134
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a258cfd54d3b780800000000000000
+      internalID: -8668351357624440179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1473
+        width: 156
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee55bf7e1d177580800000000000000
+      internalID: -8829556527607750937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1473
+        width: 156
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3694d63953f3a2c0800000000000000
+      internalID: -4421422844650154438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_37
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1480
+        width: 140
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a2d85f542f01a20800000000000000
+      internalID: 3031188931506678367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_38
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1480
+        width: 140
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fa72fcbba360170800000000000000
+      internalID: 8144261554454900539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_39
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1480
+        width: 155
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e93ca4c795541e0800000000000000
+      internalID: -2214265251417579976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_40
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1480
+        width: 155
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da35b34420b75400800000000000000
+      internalID: 312912368926800600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_41
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1480
+        width: 140
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a40889a42a91140800000000000000
+      internalID: 4690958928152906269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_42
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1480
+        width: 140
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e199c97c479142bc0800000000000000
+      internalID: -3808891395492767458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_43
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1473
+        width: 156
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db94d3b584af21b0800000000000000
+      internalID: -5679139710936245287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_44
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1473
+        width: 156
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab124fc95867758a0800000000000000
+      internalID: -6316449636127858246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_45
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1479
+        width: 157
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d2387f3b710a700800000000000000
+      internalID: 549465216258354535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_58
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1193
+        width: 157
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fd1528e74d04210800000000000000
+      internalID: 1315284731009556352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_59
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1188
+        width: 141
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823820379be99f10800000000000000
+      internalID: 2277110121193026176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_60
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1188
+        width: 141
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a83474c71feb9f00800000000000000
+      internalID: 1124755417318308003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_61
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1183
+        width: 141
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d993a4fa0d292c2a0800000000000000
+      internalID: -6718646269091628643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_62
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1183
+        width: 141
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031aebfdc1bd958c0800000000000000
+      internalID: -4009933076137336528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_63
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1176
+        width: 139
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110b0ce6dd4cbbcf0800000000000000
+      internalID: -235378100181880815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_64
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1176
+        width: 139
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d6d57200ac7fa70800000000000000
+      internalID: 8860772893883985232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_65
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1181
+        width: 134
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4711e3188043d150800000000000000
+      internalID: 5896127290351359818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_66
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1181
+        width: 134
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b67207c1e309450800000000000000
+      internalID: 6093438587693919033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_67
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1187
+        width: 156
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30aa1cdffb285b70800000000000000
+      internalID: 8887902242525061180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_68
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1187
+        width: 156
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515dccb4424113ce0800000000000000
+      internalID: -1427337460776643307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_69
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1181
+        width: 133
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964050ebde8a51c0800000000000000
+      internalID: -4514138601473161574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_71
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 893
+        width: 238
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1764f6443843350800000000000000
+      internalID: 5995561333884875202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_72
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 893
+        width: 238
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bd6fc7979112ca0800000000000000
+      internalID: -6043521215376205047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_73
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 893
+        width: 238
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852146525a7fc1b40800000000000000
+      internalID: 5412473140861473368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_74
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 893
+        width: 238
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd82e9baf37911760800000000000000
+      internalID: 7426883560228661469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_70
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 884
+        width: 133
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739f5af448e0ad9e0800000000000000
+      internalID: -5342245945849013420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_80
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 884
+        width: 133
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a886addd0ae9c9720800000000000000
+      internalID: 2854330677600086154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_81
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 884
+        width: 133
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba990750ec0862440800000000000000
+      internalID: 4910754066036988331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_82
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 907
+        width: 134
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881653914124fe460800000000000000
+      internalID: 7273104577316348296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_83
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 907
+        width: 134
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a3f7445a539a510800000000000000
+      internalID: 1560837729795652161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_84
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 615
+        width: 155
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba78f0a4def53ab0800000000000000
+      internalID: -5028833219702129996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_85
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 615
+        width: 155
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b64bb843a655b20800000000000000
+      internalID: 3122518690566007613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_86
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 552
+        width: 142
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea9f831594fbdba0800000000000000
+      internalID: -6062983552208758034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_87
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 552
+        width: 142
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319410910bc644fe0800000000000000
+      internalID: -1205719296638891757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_88
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 564
+        width: 150
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc601ef698a30b800800000000000000
+      internalID: 626064710166447823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_89
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 564
+        width: 150
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64bffb8306254470800000000000000
+      internalID: 8378144478468224111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_90
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 569
+        width: 136
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c084f6803dee7d0800000000000000
+      internalID: -2887138277917717478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_91
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 569
+        width: 136
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d4a1bc883425670800000000000000
+      internalID: 8525951299367882043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_92
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 588
+        width: 146
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05529bcf3c8fac340800000000000000
+      internalID: 4884990266479027536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_93
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 588
+        width: 146
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb3dce05ade15f10800000000000000
+      internalID: 2256846181463047089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      apple_fighter_0: 8045372071110454652
+      apple_fighter_1: -1821970186741543594
+      apple_fighter_18: 7706888803229946116
+      apple_fighter_19: 7170847369530745602
+      apple_fighter_2: 4983757996679826510
+      apple_fighter_20: -8450456957144433042
+      apple_fighter_21: -8546806080401911302
+      apple_fighter_22: 2472050991723831083
+      apple_fighter_23: -8668351357624440179
+      apple_fighter_35: -8829556527607750937
+      apple_fighter_36: -4421422844650154438
+      apple_fighter_37: 3031188931506678367
+      apple_fighter_38: 8144261554454900539
+      apple_fighter_39: -2214265251417579976
+      apple_fighter_4: -1312125462241560965
+      apple_fighter_40: 312912368926800600
+      apple_fighter_41: 4690958928152906269
+      apple_fighter_42: -3808891395492767458
+      apple_fighter_43: -5679139710936245287
+      apple_fighter_44: -6316449636127858246
+      apple_fighter_45: 549465216258354535
+      apple_fighter_58: 1315284731009556352
+      apple_fighter_59: 2277110121193026176
+      apple_fighter_6: -6654459859630961831
+      apple_fighter_60: 1124755417318308003
+      apple_fighter_61: -6718646269091628643
+      apple_fighter_62: -4009933076137336528
+      apple_fighter_63: -235378100181880815
+      apple_fighter_64: 8860772893883985232
+      apple_fighter_65: 5896127290351359818
+      apple_fighter_66: 6093438587693919033
+      apple_fighter_67: 8887902242525061180
+      apple_fighter_68: -1427337460776643307
+      apple_fighter_69: -4514138601473161574
+      apple_fighter_70: -5342245945849013420
+      apple_fighter_71: 5995561333884875202
+      apple_fighter_72: -6043521215376205047
+      apple_fighter_73: 5412473140861473368
+      apple_fighter_74: 7426883560228661469
+      apple_fighter_8: 5350328886823761400
+      apple_fighter_80: 2854330677600086154
+      apple_fighter_81: 4910754066036988331
+      apple_fighter_82: 7273104577316348296
+      apple_fighter_83: 1560837729795652161
+      apple_fighter_84: -5028833219702129996
+      apple_fighter_85: 3122518690566007613
+      apple_fighter_86: -6062983552208758034
+      apple_fighter_87: -1205719296638891757
+      apple_fighter_88: 626064710166447823
+      apple_fighter_89: 8378144478468224111
+      apple_fighter_90: -2887138277917717478
+      apple_fighter_91: 8525951299367882043
+      apple_fighter_92: 4884990266479027536
+      apple_fighter_93: 2256846181463047089
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
