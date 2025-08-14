@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="submit-container">
+        <h2 class="submit-title">Sign Up</h2>
+        <form id="registerForm" class="submit-form">
+          <label for="name" class="submit-label">Name:</label>
+          <input type="text" id="name" class="submit-input" placeholder="Enter your name" required>
+
+          <label for="email" class="submit-label">Email:</label>
+          <input type="email" id="email" class="submit-input" placeholder="Enter your email" required>
+
+          <label for="password" class="submit-label">Password:</label>
+          <input type="password" id="password" class="submit-input" placeholder="Enter your password" required>
+
+          <label for="confirm-password" class="submit-label">Confirm Password:</label>
+          <input type="password" id="confirm-password" class="submit-input" placeholder="Confirm your password" required>
+
+          <button type="submit" class="submit-btn">Sign Up</button>
+          <div>
+            <p class="question"> Do you have already an account? <a href="login.html">Log in</a></p>
+          </div>
+        </form>
+        <p id="message"></p>
+    </div>
+</body>
+</html>
