@@ -1,3 +1,8 @@
+<div>
+    <img src="https://javier.rodriguez.org.mx/itesm/2014/tecnologico-de-monterrey-blue.png" alt="Tec_Logo" height="120px" width="100%">
+</div>
+</br>
+
 # TC2005B Software Construction and Decision Making
 
 This repository contains the work for the TC2005B assignment, organized into three separate branches, each dedicated to a specific purpose:
