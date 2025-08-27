@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     //Inicializar variables
     Animator animator;
     Rigidbody2D body;
+    AudioSource sfx;
+    public AudioClip[] clips;
     float mov;
     bool seeRight = true;
     public bool jump = true;
@@ -23,6 +25,8 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         //Busca en tu inspector un componente RidigBody
         body = GetComponent<Rigidbody2D>();
+        //Busca en tu inspector un componente AudioSource
+        sfx = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -35,11 +39,15 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.K)) 
         {
             animator.Play("PlayerPunch");
+            sfx.clip = clips[1];
+            sfx.Play();
         }
 
         if (Input.GetKey(KeyCode.UpArrow) && !jump) 
         {
-            body.AddForce(new Vector2(0f, fuerzaSalto));         
+            body.AddForce(new Vector2(0f, fuerzaSalto));
+            sfx.clip = clips[0];
+            sfx.Play();
         }
 
         mov = Input.GetAxis("Horizontal");
