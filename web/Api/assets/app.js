@@ -48,7 +48,21 @@ async function fetchPlanetById(id){
     }
 }
 
-fetchCharacterById(1);
+async function renderCharacter(id) {
+    const character = await fetchCharacterById(id);
+    if (!character) return;
+
+    const container = document.getElementById("character-container");
+    container.innerHTML = `
+        <h2>${character.name}</h2>
+        <img src="${character.image}" alt="${character.name}" style="max-width:200px;">
+        <p><strong>Race:</strong> ${character.race}</p>
+        <p><strong>Gender:</strong> ${character.gender}</p>
+        <p>${character.description.slice(0, 200)}...</p>
+    `;
+}
+
+renderCharacter(1);
 
 /*
 Fetched character: {
