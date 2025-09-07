@@ -1,9 +1,9 @@
-const API_URL = "https://dragonball-api.com/api";
-const CHARACTER_ENDPOINT = `${API_URL}/characters`;
+const API_BASE_URL = "https://dragonball-api.com/api";
+const CHARACTER_ENDPOINT = `${API_BASE_URL}/characters`;
 const LIMIT = 10;
 
 let currentName = "";
-let currentUrl = `${CHARACTER_ENDPOINT}?limit=${LIMIT}`;
+const DEFAULT_URL = `${CHARACTER_ENDPOINT}?limit=${LIMIT}`;
 
 async function fetchCharacters(url) {
     try {
@@ -11,8 +11,8 @@ async function fetchCharacters(url) {
         const data = await response.json();
         return {
             characters: Array.isArray(data.items)
-          ? data.items
-          : Array.isArray(data)
+            ? data.items
+            : Array.isArray(data)
               ? data
               : [],
             links: data.links || {},
@@ -24,7 +24,7 @@ async function fetchCharacters(url) {
     }
 }
 
-async function renderCharacters(url = currentUrl) {
+async function renderCharacters(url = DEFAULT_URL) {
     const { characters, links, meta } = await fetchCharacters(url);
     const container = document.getElementById("character-container");
     if (!characters || characters.length === 0) {
@@ -40,7 +40,6 @@ async function renderCharacters(url = currentUrl) {
         `).join("");
     }
     renderPagination(links, meta);
-    currentUrl = url;
 }
 
 function renderPagination(links, meta) {
