@@ -1,31 +1,21 @@
-const API_BASE_URL = "https://dragonball-api.com/api";
-const CHARACTER_ENDPOINT = `${API_BASE_URL}/characters`;
-const LIMIT = 10;
+import { fetchFromApi } from "./api.js";
 
-let currentName = "";
-const DEFAULT_URL = `${CHARACTER_ENDPOINT}?limit=${LIMIT}`;
-
-async function fetchCharacters(url) {
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-        return {
-            characters: Array.isArray(data.items)
+export async function fetchCharacters(url) {
+    const data = await fetchFromApi(url);
+    return {
+        characters: Array.isArray(data?.items)
             ? data.items
             : Array.isArray(data)
-              ? data
-              : [],
-            links: data.links || {},
-            meta: data.meta || {}
-        };
-    } catch (error) {
-        console.error("Error fetching characters:", error);
-        return { characters: [], links: {}, meta: {} };
-    }
+                ? data
+                : data && data.name
+                    ? [data]
+                    : [],
+        links: data?.links || {},
+        meta: data?.meta || {}
+    };
 }
 
-async function renderCharacters(url = DEFAULT_URL) {
-    const { characters, links, meta } = await fetchCharacters(url);
+export function renderCharacters(characters) {
     const container = document.getElementById("character-container");
     if (!characters || characters.length === 0) {
         container.innerHTML = "<p>No characters found.</p>";
@@ -39,10 +29,10 @@ async function renderCharacters(url = DEFAULT_URL) {
             </div>
         `).join("");
     }
-    renderPagination(links, meta);
 }
 
-function renderPagination(links, meta) {
+
+export function renderPagination(links, meta, onPageChange) {
     const pagination = document.getElementById("pagination");
     let buttons = "";
 
@@ -66,23 +56,7 @@ function renderPagination(links, meta) {
 
     pagination.querySelectorAll("button").forEach(btn => {
         btn.addEventListener("click", () => {
-            renderCharacters(btn.dataset.url);
+            if (onPageChange) onPageChange(btn.dataset.url);
         });
     });
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    renderCharacters();
-
-    const searchBtn = document.getElementById('search-btn');
-    const searchInput = document.getElementById('search-input');
-
-    searchBtn.addEventListener('click', function() {
-        currentName = searchInput.value.trim();
-        let url = `${CHARACTER_ENDPOINT}?page=1&limit=${LIMIT}`;
-        if (currentName) {
-            url += `&name=${encodeURIComponent(currentName)}`;
-        }
-        renderCharacters(url);
-    });
-});
