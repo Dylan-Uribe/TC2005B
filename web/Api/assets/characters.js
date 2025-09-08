@@ -7,9 +7,7 @@ export async function fetchCharacters(url) {
             ? data.items
             : Array.isArray(data)
                 ? data
-                : data && data.name
-                    ? [data]
-                    : [],
+                : [],
         links: data?.links || {},
         meta: data?.meta || {}
     };
@@ -23,7 +21,7 @@ export function renderCharacters(characters) {
         container.innerHTML = characters.map(character => `
             <div class="character-card">
                 <h3>${character.name}</h3>
-                <img src="${character.image}" alt="${character.name}" width="150"/>
+                <img src="${character.image}" alt="${character.name}"/>
                 <p><strong>Race:</strong> ${character.race}</p>
                 <p><strong>Gender:</strong> ${character.gender}</p>
             </div>
