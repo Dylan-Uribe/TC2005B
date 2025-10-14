@@ -1,0 +1,22 @@
+/*Search for a color palette*/
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.app-container {
+    display: flex;
+    gap: 20px;
+}
+
+.garden-grid {
+    border: 2px solid #ccc;
+    min-width: 400px;
+    height: 400px;
+}
+
+.sidebar {
+    border: 2px solid #a2a2a2;
+    padding: 10px;
+    flex-grow: 1;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mini app</title>
+</head>
+<body>
+    <header>
+        <h1>Jardín Digital</h1>
+    </header>
+    <main class="app-container">
+        <section class="garden">
+            <div id="garden-grid" class="garden-grid"></div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="panel stats-panel">
+                <h2>Estadísticas</h2>
+                <p>Plantadas: <span id="planted-count">0</span></p>
+                <p>Maduras: <span id="mature-count">0</span></p>
+                <p>Cosechadas: <span id="harvested-count">0</span></p>
+            </div>
+
+            <div class="panel actions-panel">
+                <h2>Acciones</h2>
+                <button id="water-btn">Regar Plantas (Water)</button>
+                <button id="harvest-btn">Cosechar Maduras (Harvest)</button>
+            </div>
+
+            <div class="panel filter-panel">
+                <h2>Mis Plantas</h2>
+                <input type="search" id="search-input" placeholder="Buscar por nombre...">
+                <select id="filter-select">
+                    <option value="all">Todas</option>
+                    <option value="planted">Plantadas</option>
+                    <option value="mature">Maduras</option>
+                </select>
+            </div>
+            
+            <ul id="plant-list" class="plant-list"></ul>
+        </aside>
+    </main>
+</body>
+</html>
