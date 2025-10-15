@@ -41,6 +41,27 @@
             
             <ul id="plant-list" class="plant-list"></ul>
         </aside>
+
+        <div id = "plant-modal" class ="modal-overlay" aria-hidden="true">
+            <div class = "modal-content">
+                <h2>Plantar una semilla</h2>
+                <form id="plant-form">
+                    <label  for="plant-type">Elige una planta: </label>
+                    <select id ="plant-type" required>
+                        <option value="seedling">Planta &#127793;</option>
+                        <option value="tulip">Tulipán &#127799;</option>
+                        <option value="cactus">Cactus &#127797;</option>
+                        <option value="strawberry">Fresa &#127825;</option>
+                    </select>
+                    <label  for="plant-name">Nombre (opcional): </label>
+                    <input type="text" id="plant-name" placeholder="Mi planta...">
+                    <div class = "modal-actions">
+                        <button type="submit">Plantar</button>
+                        <button type="button" id="cancel-btns">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
 
     <script src="app.js"></script>
