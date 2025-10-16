@@ -16,6 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const plantListUl = document.getElementById('plant-list');
 
+    function announce(message) {
+        const announcer = document.getElementById('live-announcer');
+        if (announcer) {
+            announcer.textContent = '';
+
+            setTimeout(() => {
+                announcer.textContent = message;
+            }, 100);
+        }
+    }
+
     function saveState(){
         localStorage.setItem('gardenState', JSON.stringify(state));
     }
@@ -81,6 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if(state.plantingCellId !== null){
             plantSeed(state.plantingCellId, plantType, plantName);
+            const nameForAnnouncement = plantName ? `llamada ${plantName}` : `de tipo ${plantType}`;
+            announce(`Se ha plantado una nueva planta ${nameForAnnouncement}.`);
             renderGrid();
             renderStats();
             renderSidebar();
@@ -117,6 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function waterPlants() {
+        const plantsToWater = state.grid.filter(cell => cell.status === 'planted').length;
         state.grid.forEach(cell => {
             if(cell.status === 'planted'){
                 cell.status = 'mature';
@@ -125,10 +139,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 state.counters.planted--;
                 state.counters.mature++;
             }
+
+            if (plantsToWater > 0) {
+            const plural = plantsToWater === 1 ? 'planta ha madurado' : 'plantas han madurado';
+            announce(`${plantsToWater} ${plural} después de ser regadas.`);
+            } else {
+                announce('No había plantas para regar.');
+            }
         });
     }
 
     function harvestPlants() {
+        const plantsToHarvest = state.grid.filter(cell => cell.status === 'mature').length;
         state.grid.forEach(cell => {
             if (cell.status === 'mature') {
                 cell.status = 'empty';
@@ -139,6 +161,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 state.counters.mature--;
                 state.counters.harvested++;
+            }
+
+            if (plantsToHarvest > 0) {
+            const plural = plantsToHarvest === 1 ? 'planta' : 'plantas';
+            announce(`Se han cosechado ${plantsToHarvest} ${plural}.`);
+            } else {
+                announce('No había plantas maduras para cosechar.');
             }
         });
     }

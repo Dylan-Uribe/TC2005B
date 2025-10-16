@@ -171,3 +171,12 @@ input, select {
 #plant-form button[type="button"]:hover {
     background-color: #5a6268;
 }
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
