@@ -42,9 +42,16 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     justify-content: center;
-    opacity: 0;
     align-items: center;
+    visibility: hidden;
+    opacity: 0;
     transition: visibility 0s 0.3s, opacity 0.3s;
+}
+
+.modal-overlay.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.3s;
 }
 
 .modal-content{
