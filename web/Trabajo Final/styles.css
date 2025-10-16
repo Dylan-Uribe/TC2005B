@@ -1,36 +1,120 @@
-/*Search for a color palette*/
-
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: sans-serif;
+    background-color: #F8F9FA;
+    color: #343a40;
+    margin: 0;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #4CAF50;
 }
 
 .app-container {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.garden {
+    flex-shrink: 0;
 }
 
 .garden-grid {
-    border: 2px solid #ccc;
-    min-width: 400px;
-    height: 400px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
-}
-
-.sidebar {
-    border: 2px solid #a2a2a2;
-    padding: 10px;
-    flex-grow: 1;
+    width: 450px;
+    height: 450px;
+    background-color: #f4eade;
+    border: 4px solid #d3c4a8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0000001A;
 }
 
 .cell {
-    border: 1px solid #ddd;
+    border: 1px solid #d3c4a8;
     cursor: pointer;
 }
 
 .cell:hover {
-    background-color: #f0f0f0;
+    background-color: #e9dcc8;
+}
+
+.sidebar {
+    flex-grow: 1;
+}
+
+.panel {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #0000001A;
+    margin-bottom: 20px;
+}
+
+.panel:last-child {
+    margin-bottom: 0;
+}
+
+.panel h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #F8F9FA;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.actions-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#water-btn {
+    background-color: #4CAF50;
+}
+#water-btn:hover {
+    background-color: #45a049;
+}
+
+#harvest-btn {
+    background-color: #4CAF50;
+}
+#harvest-btn:hover {
+    background-color: #45a049;
+}
+
+input, select {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+
+.plant-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plant-list li {
+    padding: 10px;
+    border-bottom: 1px solid #F8F9FA;
 }
 
 .modal-overlay {
@@ -45,23 +129,23 @@ body {
     align-items: center;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s 0.3s, opacity 0.3s;
+    transition: opacity 0.3s ease;
 }
 
 .modal-overlay.visible {
     visibility: visible;
     opacity: 1;
-    transition: visibility 0s, opacity 0.3s;
 }
 
-.modal-content{
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    width: 300px;
+.modal-content {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 8px;
+    width: 350px;
+    box-shadow: 0 5px 15px #0000004D;
 }
 
-#plant-form label {
+#plant-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -69,6 +153,21 @@ body {
 
 .modal-actions {
     display: flex;
-    justify-content: flex-end;
     gap: 10px;
+    margin-top: 10px;
+}
+
+#plant-form button[type="submit"] {
+    background-color: #4CAF50;
+    flex-grow: 1;
+}
+#plant-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#plant-form button[type="button"] {
+    background-color: #6c757d;
+}
+#plant-form button[type="button"]:hover {
+    background-color: #5a6268;
 }
