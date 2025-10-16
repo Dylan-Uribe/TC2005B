@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const matureCountSpan = document.getElementById('mature-count');
     const harvestedCountSpan = document.getElementById('harvested-count');
 
+    const plantListUl = document.getElementById('plant-list');
+
     const plantTypes = {
         seedling: {planted: '&#127793;', mature: '&#127807;'},
         tulip: {planted: '&#127799;', mature: '&#127799;'},
@@ -62,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             plantSeed(state.plantingCellId, plantType, plantName);
             renderGrid();
             renderStats();
+            renderSidebar();
         }
 
         toggleModal(false);
@@ -139,6 +142,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function renderSidebar() {
+        plantListUl.innerHTML = '';
+
+        const plants = state.grid.filter(cell => cell.status !== 'empty');
+
+        if (plants.length === 0) {
+            plantListUl.innerHTML = '<li>No hay nada plantado.</li>';
+            return;
+        }
+
+        plants.forEach(plant => {
+            const listItem = document.createElement('li');
+            
+            const plantName = plant.name ? `"${plant.name}"` : '(Sin nombre)';
+            
+            listItem.innerHTML = `
+            ${plant.plantEmoji} ${plantName}
+            - <i>(${plant.plantType})</i>
+            - Estado: ${plant.status === 'planted' ? 'Plantado' : 'Maduro'}
+            `;
+            plantListUl.appendChild(listItem);
+        });
+    }
+
     function renderStats() {
         plantedCountSpan.textContent = state.counters.planted;
         matureCountSpan.textContent = state.counters.mature;
@@ -149,6 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
         createGrid();
         renderGrid();
         renderStats();
+        renderSidebar();
         gardenGrid.addEventListener('click', handleGridClick);
         plantForm.addEventListener('submit', handleFormSubmit);
         cancelBtn.addEventListener('click', () => toggleModal(false));
@@ -157,12 +185,14 @@ document.addEventListener('DOMContentLoaded', () => {
             waterPlants();
             renderGrid();
             renderStats();
+            renderSidebar();
         });
 
         harvestBtn.addEventListener('click', () => {
             harvestPlants();
             renderGrid();
             renderStats();
+            renderSidebar();
         });
     }
 
