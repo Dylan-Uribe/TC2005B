@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const matureCountSpan = document.getElementById('mature-count');
     const harvestedCountSpan = document.getElementById('harvested-count');
 
+    const searchInput = document.getElementById('search-input');
+    const filterSelect = document.getElementById('filter-select');
+
     const plantListUl = document.getElementById('plant-list');
 
     function saveState(){
@@ -38,6 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
             planted: 0,
             mature: 0,
             harvested: 0
+        },
+
+        filters: {
+            searchTerm: '',
+            filterBy: 'all'
         }
     };
 
@@ -157,23 +165,32 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderSidebar() {
         plantListUl.innerHTML = '';
 
-        const plants = state.grid.filter(cell => cell.status !== 'empty');
+        let filteredPlants = state.grid.filter(cell => cell.status !== 'empty');
 
-        if (plants.length === 0) {
-            plantListUl.innerHTML = '<li>No hay nada plantado.</li>';
+        if (state.filters.filterBy !== 'all') {
+            filteredPlants = filteredPlants.filter(plant => plant.status === state.filters.filterBy);
+        }
+
+        if (state.filters.searchTerm) {
+            const searchTermLower = state.filters.searchTerm.toLowerCase();
+            filteredPlants = filteredPlants.filter(plant =>
+                plant.name.toLowerCase().includes(searchTermLower)
+            );
+        }
+
+        if (filteredPlants.length === 0) {
+            plantListUl.innerHTML = '<li>No se encontraron plantas con esos filtros.</li>';
             return;
         }
 
-        plants.forEach(plant => {
+        filteredPlants.forEach(plant => {
             const listItem = document.createElement('li');
             
             const plantName = plant.name ? `"${plant.name}"` : '(Sin nombre)';
             
-            listItem.innerHTML = `
-            ${plant.plantEmoji} ${plantName}
-            - <i>(${plant.plantType})</i>
-            - Estado: ${plant.status === 'planted' ? 'Plantado' : 'Maduro'}
-            `;
+            const plantStatus = plant.status === 'planted' ? 'Plantado' : 'Maduro';
+
+            listItem.innerHTML = `${plant.plantEmoji} ${plantName} - <i>(${plantStatus})</i>`;
             plantListUl.appendChild(listItem);
         });
     }
@@ -212,6 +229,16 @@ document.addEventListener('DOMContentLoaded', () => {
             renderStats();
             renderSidebar();
             saveState();
+        });
+
+        searchInput.addEventListener('input', (event) => {
+            state.filters.searchTerm = event.target.value;
+            renderSidebar();
+        });
+
+        filterSelect.addEventListener('change', (event) => {
+            state.filters.filterBy = event.target.value;
+            renderSidebar();
         });
     }
 
