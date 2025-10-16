@@ -5,16 +5,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const plantForm = document.getElementById('plant-form');
     const cancelBtn = document.getElementById('cancel-btn');
 
+    const waterBtn = document.getElementById('water-btn');
+    const harvestBtn = document.getElementById('harvest-btn');
+    const plantedCountSpan = document.getElementById('planted-count');
+    const matureCountSpan = document.getElementById('mature-count');
+    const harvestedCountSpan = document.getElementById('harvested-count');
+
     const plantTypes = {
-        seedling: {planted: '&#127793;', harvested: '&#127807;'},
-        tulip: {planted: '&#127799;', harvested: '&#127799;'},
-        cactus: {planted: '&#127797;', harvested: '&#127797;'},
-        strawberry: {planted: '&#127825;', harvested: '&#127825;'}
+        seedling: {planted: '&#127793;', mature: '&#127807;'},
+        tulip: {planted: '&#127799;', mature: '&#127799;'},
+        cactus: {planted: '&#127797;', mature: '&#127797;'},
+        strawberry: {planted: '&#127825;', mature: '&#127825;'}
     };
 
     let state = {
         grid: [],
-        plantingCellId: null
+        plantingCellId: null,
+        counters:{
+            planted: 0,
+            mature: 0,
+            harvested: 0
+        }
     };
 
     function createGrid(){
@@ -50,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(state.plantingCellId !== null){
             plantSeed(state.plantingCellId, plantType, plantName);
             renderGrid();
+            renderStats();
         }
 
         toggleModal(false);
@@ -77,9 +89,36 @@ document.addEventListener('DOMContentLoaded', () => {
             cellToPlant.plantEmoji = plantTypes[type].planted;
             cellToPlant.matureEmoji = plantTypes[type].mature;
             cellToPlant.harvestEmoji = plantTypes[type].harvested;
+            state.counters.planted++;
         }
     }
 
+    function waterPlants() {
+        state.grid.forEach(cell => {
+            if(cell.status === 'planted'){
+                cell.status = 'mature';
+                cell.plantEmoji = cell.matureEmoji;
+
+                state.counters.planted--;
+                state.counters.mature++;
+            }
+        });
+    }
+
+    function harvestPlants() {
+        state.grid.forEach(cell => {
+            if (cell.status === 'mature') {
+                cell.status = 'empty';
+                cell.plantType = null;
+                cell.name = null;
+                cell.plantEmoji = null;
+                cell.matureEmoji = null;
+
+                state.counters.mature--;
+                state.counters.harvested++;
+            }
+        });
+    }
     function renderGrid() {
         gardenGrid.innerHTML = '';
 
@@ -100,13 +139,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function renderStats() {
+        plantedCountSpan.textContent = state.counters.planted;
+        matureCountSpan.textContent = state.counters.mature;
+        harvestedCountSpan.textContent = state.counters.harvested;
+    }
+
     function init() {
         createGrid();
         renderGrid();
-        
+        renderStats();
         gardenGrid.addEventListener('click', handleGridClick);
         plantForm.addEventListener('submit', handleFormSubmit);
         cancelBtn.addEventListener('click', () => toggleModal(false));
+        
+        waterBtn.addEventListener('click', () => {
+            waterPlants();
+            renderGrid();
+            renderStats();
+        });
+
+        harvestBtn.addEventListener('click', () => {
+            harvestPlants();
+            renderGrid();
+            renderStats();
+        });
     }
 
     init();
