@@ -13,6 +13,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const plantListUl = document.getElementById('plant-list');
 
+    function saveState(){
+        localStorage.setItem('gardenState', JSON.stringify(state));
+    }
+
+    function loadState(){
+        const savedState = localStorage.getItem('gardenState');
+        if(savedState){
+            state = JSON.parse(savedState);
+        }
+    }
+
     const plantTypes = {
         seedling: {planted: '&#127793;', mature: '&#127807;'},
         tulip: {planted: '&#127799;', mature: '&#127799;'},
@@ -65,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderGrid();
             renderStats();
             renderSidebar();
+            saveState();
         }
 
         toggleModal(false);
@@ -173,7 +185,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function init() {
-        createGrid();
+        loadState();
+
+        if(state.grid.length === 0){
+            createGrid();
+        }
+
         renderGrid();
         renderStats();
         renderSidebar();
@@ -186,6 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderGrid();
             renderStats();
             renderSidebar();
+            saveState();
         });
 
         harvestBtn.addEventListener('click', () => {
@@ -193,6 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderGrid();
             renderStats();
             renderSidebar();
+            saveState();
         });
     }
 
